@@ -2,7 +2,6 @@
   ExpElementCommands.cpp
   ExpRecorderCommands.cpp
   ExpServerCommands.cpp
-C:\OpenFresco2019\src\openseesExtra\TCP_SocketSSL.h(41,10): fatal error C1083: Cannot open include file: 'openssl/ssl.h': No such file or directory
   ExpSetupCommands.cpp
   ExpSignalFilterCommands.cpp
   ExpSiteCommands.cpp
@@ -10,3 +9,5 @@ C:\OpenFresco2019\src\openseesExtra\TCP_SocketSSL.h(41,10): fatal error C1083: C
   OpenFrescoPackage.cpp
   win32Functions.cpp
   Generating Code...
+     Creating library ..\..\bin\OpenFresco.lib and object ..\..\bin\OpenFresco.exp
+  OpenFrescoDll.vcxproj -> C:\OpenFresco2019\WIN64\bin\OpenFresco.dll
