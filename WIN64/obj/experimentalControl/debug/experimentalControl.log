@@ -1,0 +1,20 @@
+﻿  ExpControlSP.cpp
+  ExperimentalCP.cpp
+C:\OpenFresco2019\SRC\experimentalControlPoint\ExperimentalCP.cpp(86,15): warning C4129: 'o': unrecognized character escape sequence
+C:\OpenFresco2019\SRC\experimentalControlPoint\ExperimentalCP.cpp(86,15): warning C4129: 'S': unrecognized character escape sequence
+C:\OpenFresco2019\SRC\experimentalControlPoint\ExperimentalCP.cpp(86,15): warning C4129: 'e': unrecognized character escape sequence
+C:\OpenFresco2019\SRC\experimentalControlPoint\ExperimentalCP.cpp(86,15): warning C4129: 'E': unrecognized character escape sequence
+  ECGenericTCP.cpp
+  ECLabVIEW.cpp
+  ECSCRAMNet.cpp
+  ECSCRAMNetGT.cpp
+  ECSimDomain.cpp
+  ECSimFEAdapter.cpp
+  ECSimSimulink.cpp
+  ECSimulation.cpp
+  ECSimUniaxialMaterials.cpp
+  ECxPCtarget.cpp
+  ExperimentalControl.cpp
+  Generating Code...
+  xpcinitfree.c
+  experimentalControl.vcxproj -> C:\OpenFresco2019\WIN64\lib\debug\experimentalControl.lib

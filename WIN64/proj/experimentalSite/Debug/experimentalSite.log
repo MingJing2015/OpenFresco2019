@@ -1,0 +1,251 @@
+﻿  ActorExpSite.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(193,30): error C2371: 'size_t': redefinition; different basic types
+C:\OpenFresco\WIN64\proj\experimentalSite\predefined C++ types (compiler internal)(16): message : see declaration of 'size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2087,73): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2087,50): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2088,66): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2088,50): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(121,66): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(121,45): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(563,12): error C3861: '_InterlockedCompareExchange128_nf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\OpenFresco\src\openseesExtra\TCP_SocketSSL.h(41,10): fatal error C1083: Cannot open include file: 'openssl/ssl.h': No such file or directory
+  ExperimentalSite.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(193,30): error C2371: 'size_t': redefinition; different basic types
+C:\OpenFresco\WIN64\proj\experimentalSite\predefined C++ types (compiler internal)(16): message : see declaration of 'size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2087,73): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2087,50): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2088,66): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2088,50): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(121,66): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(121,45): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(563,12): error C3861: '_InterlockedCompareExchange128_nf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+  LocalExpSite.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(193,30): error C2371: 'size_t': redefinition; different basic types
+C:\OpenFresco\WIN64\proj\experimentalSite\predefined C++ types (compiler internal)(16): message : see declaration of 'size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2087,73): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2087,50): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2088,66): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2088,50): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(121,66): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(121,45): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(563,12): error C3861: '_InterlockedCompareExchange128_nf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+  ShadowExpSite.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(193,30): error C2371: 'size_t': redefinition; different basic types
+C:\OpenFresco\WIN64\proj\experimentalSite\predefined C++ types (compiler internal)(16): message : see declaration of 'size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2087,73): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2087,50): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2088,66): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(2088,50): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(121,66): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'const size_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(121,45): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(563,12): error C3861: '_InterlockedCompareExchange128_nf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1646,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(1888,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2084,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,39): error C2672: 'std::min': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2780: '_Ty std::min(std::initializer_list<_Elem>)': expects 1 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(74): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2784: '_Ty std::min(std::initializer_list<_Elem>,_Pr)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(71): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2782: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': template parameter '_Ty' is ambiguous
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): message : could be 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): message : or       'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2784: 'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': could not deduce template argument for 'const _Ty &' from 'ptrdiff_t'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(63): message : see declaration of 'std::min'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale(2285,85): error C2780: 'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(54): message : see declaration of 'std::min'
+C:\OpenFresco\src\openseesExtra\TCP_SocketSSL.h(41,10): fatal error C1083: Cannot open include file: 'openssl/ssl.h': No such file or directory
+  Generating Code...
